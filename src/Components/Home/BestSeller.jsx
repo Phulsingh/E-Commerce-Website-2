@@ -1,54 +1,74 @@
 import React from "react";
 
-const SubscriptionProduct = () => {
+const BestSeller = () => {
   const products = [
     {
       id: 1,
-      name: "Coconut Water",
-      price: 60,
-      originalPrice: 90,
-      quantity: "1 pc",
-      discount: "33%",
+      name: "Dove intense Repair Shampoo",
+      price: 128,
+      originalPrice: 130,
+      quantity: "180 ml",
+      discount: "2%",
       image:
-        "https://res.cloudinary.com/dpplqvnx6/image/upload/v1730876915/Grocery/DesktopImage/sdwlnusordkhxa5vmnsx.webp",
+        "https://res.cloudinary.com/dpplqvnx6/image/upload/v1724856971/Grocery/DesktopImage/ygt8gkg2ntwrkbz3ecrr.webp",
     },
     {
       id: 2,
-      name: "Brown Bread",
-      price: 18,
-      originalPrice: 35,
-      quantity: "200 gm",
-      discount: "17%",
+      name: "Himalaya Anti hairfal shampoo",
+      price: 125,
+      originalPrice: 150,
+      quantity: "200 ml",
+      discount: "2%",
       image:
-        "https://res.cloudinary.com/dpplqvnx6/image/upload/v1730876918/Grocery/DesktopImage/tfrgt4ixxgiorgyggcrz.webp",
+        "https://res.cloudinary.com/dpplqvnx6/image/upload/v1724856904/Grocery/DesktopImage/spts91ruoego82nynz2g.webp",
     },
     {
       id: 3,
-      name: "White eggs",
-      price: 36,
-      originalPrice: 94,
-      quantity: "6 pcs",
-      discount: "46%",
+      name: "TRE Semme Hair Fall Defense",
+      price: 73,
+      originalPrice: 90,
+      quantity: "85 ml",
+      discount: "0%",
       image:
-        "https://res.cloudinary.com/dpplqvnx6/image/upload/v1730876924/Grocery/DesktopImage/galkvwpt3eyo3vkj4q3t.webp",
+        "https://res.cloudinary.com/dpplqvnx6/image/upload/v1724856653/Grocery/DesktopImage/zrepmjz4waniiwokacjq.webp",
     },
     {
       id: 4,
-      name: "Buffallo Milk (500ml)",
-      price: 27,
-      originalPrice: 37,
-      quantity: "500 ml",
+      name: "Coconut Water",
+      price: 10,
+      originalPrice: 15,
+      quantity: "1 pc",
       discount: "33%",
       image:
-        "https://res.cloudinary.com/dpplqvnx6/image/upload/v1730876937/Grocery/DesktopImage/urvfdx1oklagnyqbxs2w.webp",
+        "https://res.cloudinary.com/dpplqvnx6/image/upload/v1724856561/Grocery/DesktopImage/hl8pkwpntj3uyq8heipi.webp",
     },
+    {
+        id: 5,
+        name: "Coconut Water",
+        price: 60,
+        originalPrice: 90,
+        quantity: "1 pc",
+        discount: "33%",
+        image:
+          "https://res.cloudinary.com/dpplqvnx6/image/upload/v1724856269/Grocery/DesktopImage/gw5g7bbtslavkr1tolpj.webp",
+      },
+      {
+        id: 6,
+        name: "Coconut Water",
+        price: 60,
+        originalPrice: 90,
+        quantity: "1 pc",
+        discount: "33%",
+        image:
+          "https://res.cloudinary.com/dpplqvnx6/image/upload/v1724856082/Grocery/DesktopImage/laemc1zuntvyqifiaymi.webp",
+      },
   ];
 
   return (
     <>
       {products.length > 0 && (
         <div className="w-full h-full px-3 md:px-10 mt-3 md:mt-5">
-          <p className="text-xl md:text-2xl font-bold">Subscription Products</p>
+          <p className="text-xl md:text-2xl font-bold">Best Seller</p>
            {/* Wrapper div for responsive layout */}
            <div className="py-3">
             {/* Mobile (horizontal scroll) */}
@@ -56,10 +76,10 @@ const SubscriptionProduct = () => {
               {products.map((product) => (
                 <div
                   key={product.id}
-                  className="min-w-[25%] flex-shrink-0 border border-gray-200 rounded-lg shadow-sm p-4 text-center relative transform transition-transform duration-300 hover:scale-105"
+                  className="min-w-[80%] flex-shrink-0 border border-gray-200 rounded-lg shadow-sm p-4 text-center relative transform transition-transform duration-300 hover:scale-105"
                 >
                   {/* Discount Label */}
-                  <div className="absolute top-0 left-0 w-32 bg-green-800 text-white text-sm rounded-br-xl md:rounded-tr-xl px-2 py-1">
+                  <div className="absolute top-0 left-0 w-32 bg-green-800 text-white text-sm rounded-br-xl px-2 py-1">
                     {product.discount} off
                   </div>
 
@@ -129,4 +149,4 @@ const SubscriptionProduct = () => {
   );
 };
 
-export default SubscriptionProduct;
+export default BestSeller;

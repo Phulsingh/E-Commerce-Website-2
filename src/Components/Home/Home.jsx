@@ -4,6 +4,14 @@ import Navbar from './Navbar'
 import BannerChanger from './BannerChanger'
 import SubscriptionProduct from './SubscriptionProduct'
 import OrganicVeg from './OrganicVeg'
+import BestSeller from './BestSeller'
+import OragnicFruits from './OrganicFruits'
+import ExploreCategory from './ExploreCategory'
+import HotProducts from './HotProducts'
+import Banner2 from './Banner2'
+import DryFruitsOilMasala from './DryFruitsOilMasala'
+import FooterDesktop from '../Footer/FooterDesktop'
+
 
 const Home = () => {
   return (
@@ -13,6 +21,13 @@ const Home = () => {
       <BannerChanger/>
       <SubscriptionProduct/>
       <OrganicVeg/>
+      <OragnicFruits/>
+      <BestSeller/>
+      <ExploreCategory/>
+      <HotProducts/>
+      <Banner2/>
+      <DryFruitsOilMasala/>
+      <FooterDesktop/>
     </>
   )
 }
