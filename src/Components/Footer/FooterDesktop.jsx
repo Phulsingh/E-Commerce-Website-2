@@ -2,8 +2,8 @@ import React from "react";
 
 const FooterDesktop = () => {
   return (
-    <footer className="bg-white text-gray-800 border-t">
-      <div className="max-w-7xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-5 gap-6">
+    <footer className="bg-white w-full hidden md:flex md:flex-col  text-gray-800 border-t">
+      <div className="mx-auto px-4  py-8 grid grid-cols-1 md:grid-cols-5 gap-6">
         {/* Logo & Address */}
         <div className="space-y-2">
           <img src="https://kingkisanghar.com/assets/images/kisanlogo20.png" alt="KKG Logo" className="w-32" />

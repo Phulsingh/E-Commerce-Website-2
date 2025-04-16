@@ -38,7 +38,7 @@ const DryFruitsOilMasala = () => {
   return (
     <>
       {products.length > 0 && (
-        <div className="w-full h-full px-1 md:px-10 mt-6   md:mt-15">
+        <div className="w-full h-full px-1 mb-10  md:px-10 mt-6   md:mt-15">
           <p className="text-xl ml-2 md:text-2xl font-bold">
             Dry Fruits, Oil and Masala
           </p>

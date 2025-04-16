@@ -4,43 +4,63 @@ const OrganicVeg = () => {
   const products = [
     {
       id: 1,
-      name: "Coconut Water",
-      price: 60,
-      originalPrice: 90,
-      quantity: "1 pc",
-      discount: "33%",
+      name: "Red Capsicum Organics",
+      price: 54,
+      originalPrice: 100,
+      quantity: "200 gm",
+      discount: "28%",
       image:
-        "https://www.bigbasket.com/media/uploads/p/s/40075576_1-fresho-coconut-water.jpg",
+        "https://res.cloudinary.com/dpplqvnx6/image/upload/v1724855027/Grocery/DesktopImage/nfvgpvyeatfeuj22j4j6.webp",
     },
     {
       id: 2,
-      name: "Coconut Water",
-      price: 60,
-      originalPrice: 90,
-      quantity: "1 pc",
-      discount: "33%",
+      name: "Fresh Machroom Organic",
+      price: 48,
+      originalPrice: 50,
+      quantity: "200 gm",
+      discount: "40%",
       image:
-        "https://www.bigbasket.com/media/uploads/p/s/40075576_1-fresho-coconut-water.jpg",
+        "https://res.cloudinary.com/dpplqvnx6/image/upload/v1724855004/Grocery/DesktopImage/vowcdrtxwx02eg5syg7m.webp",
     },
     {
       id: 3,
-      name: "Coconut Water",
+      name: "ORGANIC Letter-green salad",
       price: 60,
       originalPrice: 90,
-      quantity: "1 pc",
-      discount: "33%",
+      quantity: "200 g",
+      discount: "42%",
       image:
-        "https://www.bigbasket.com/media/uploads/p/s/40075576_1-fresho-coconut-water.jpg",
+        "https://res.cloudinary.com/dpplqvnx6/image/upload/v1724855054/Grocery/DesktopImage/eewcjrwxsickzt7p81ab.webp ",
     },
     {
       id: 4,
-      name: "Coconut Water",
-      price: 60,
+      name: "Lemon Basin Organic",
+      price: 18,
       originalPrice: 90,
       quantity: "1 pc",
       discount: "33%",
       image:
-        "https://www.bigbasket.com/media/uploads/p/s/40075576_1-fresho-coconut-water.jpg",
+        "https://res.cloudinary.com/dpplqvnx6/image/upload/v1724855109/Grocery/DesktopImage/gpjvbtcnxcr4rseka1wa.webp",
+    },
+    {
+      id: 5,
+      name: "Red lettuce [Lollo Rosso]",
+      price: 99,
+      originalPrice: 180,
+      quantity: "1 pc",
+      discount: "45%",
+      image:
+        "https://res.cloudinary.com/dpplqvnx6/image/upload/v1724855070/Grocery/DesktopImage/voywwg9z31pp5idrymnl.webp",
+    },
+    {
+      id: 6,
+      name: "Brocolic Organic",
+      price: 61,
+      originalPrice: 100,
+      quantity: "1 pc",
+      discount: "33%",
+      image:
+        "https://res.cloudinary.com/dpplqvnx6/image/upload/v1724855041/Grocery/DesktopImage/tat66vjjipzskarrhk2f.webp",
     },
   ];
 
@@ -56,7 +76,7 @@ const OrganicVeg = () => {
               {products.map((product) => (
                 <div
                   key={product.id}
-                  className="min-w-[80%] flex-shrink-0 border border-gray-200 rounded-lg shadow-sm p-4 text-center relative transform transition-transform duration-300 hover:scale-105"
+                  className="min-w-[25%] flex-shrink-0 border border-gray-200 rounded-lg shadow-sm p-4 text-center relative transform transition-transform duration-300 hover:scale-105"
                 >
                   {/* Discount Label */}
                   <div className="absolute top-0 left-0 w-32 bg-green-800 text-white text-sm rounded-br-xl px-2 py-1">

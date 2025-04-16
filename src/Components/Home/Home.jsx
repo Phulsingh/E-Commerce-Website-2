@@ -11,6 +11,7 @@ import HotProducts from './HotProducts'
 import Banner2 from './Banner2'
 import DryFruitsOilMasala from './DryFruitsOilMasala'
 import FooterDesktop from '../Footer/FooterDesktop'
+import FooterMobil from '../Footer/FooterMobil'
 
 
 const Home = () => {
@@ -28,6 +29,7 @@ const Home = () => {
       <Banner2/>
       <DryFruitsOilMasala/>
       <FooterDesktop/>
+      <FooterMobil/>
     </>
   )
 }
